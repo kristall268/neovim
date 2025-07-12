@@ -1,0 +1,51 @@
+{
+  // Editor settings
+  "editor.fontSize": 14,
+  "editor.fontFamily": "'JetBrains Mono Nerd Font', 'Fira Code Nerd Font', 'Hack Nerd Font', monospace",
+  "editor.fontLigatures": true,
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "editor.wordWrap": "on",
+  "editor.lineNumbers": "on",
+  // "editor.rulers": [80, 120],
+  "editor.minimap.enabled": false,
+  "editor.cursorBlinking": "blink",
+  "editor.cursorSmoothCaretAnimation": "on",
+  
+  // Terminal settings
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.fontFamily": "'JetBrains Mono Nerd Font', 'Fira Code Nerd Font', monospace",
+
+  
+  // File explorer
+  "explorer.confirmDelete": true,
+  "explorer.confirmDragAndDrop": true,
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 1000,
+  
+  // Lua specific settings
+  "lua.diagnostics.globals": ["vim"],
+  "lua.workspace.library": {
+    "/usr/share/nvim/runtime/lua": true,
+    "/usr/share/nvim/runtime/lua/vim": true,
+    "/usr/share/nvim/runtime/lua/vim/lsp": true
+  },
+  
+  // Git settings
+  "git.enableSmartCommit": true,
+  "git.confirmSync": false,
+  
+  // Theme and appearance
+  "workbench.colorTheme": "Catppuccin Mocha",
+  "workbench.iconTheme": "material-icon-theme",
+  
+  // Extension settings
+  "extensions.ignoreRecommendations": false,
+  
+  // Search settings
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/bower_components": true,
+    "**/.git": true
+  }
+}
