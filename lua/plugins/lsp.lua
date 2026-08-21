@@ -46,7 +46,21 @@ return {
         },
       })
 
-      -- vim.lsp.config("nixd", { ... })
+      vim.lsp.config("nixd", {
+        settings = {
+          nixd = {
+            nixpkgs = {
+              expr = "import <nixpkgs> {}",
+            },
+            formatting = {
+              command = { "alejandra" },
+            },
+            diagnostic = {
+              suppress = {},
+            },
+          },
+        },
+      })
 
       vim.lsp.enable({ "lua_ls", "nixd" })
     end,

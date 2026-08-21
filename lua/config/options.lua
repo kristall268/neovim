@@ -7,3 +7,4 @@ opt.cursorline = true
 opt.relativenumber = true
 
 opt.shiftwidth = 4
+vim.o.termguicolors = true
